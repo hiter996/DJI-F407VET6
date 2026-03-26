@@ -1,0 +1,132 @@
+{
+    "name": "dji-F407VET6",
+    "target": "Debug",
+    "toolchain": "GCC",
+    "toolchainLocation": "F:\\arm\\14.3 rel1",
+    "toolchainCfgFile": "c:\\Users\\wang\\.vscode\\extensions\\cl.eide-3.26.5\\res\\data\\models/arm.gcc.model.json",
+    "buildMode": "fast|multhread",
+    "showRepathOnLog": true,
+    "threadNum": 16,
+    "rootDir": "f:\\STM32CubeMX\\project\\dji-F407VET6",
+    "dumpPath": "build\\Debug",
+    "outDir": "build\\Debug",
+    "incDirs": [
+        "Drivers/STM32F4xx_HAL_Driver/Src",
+        "Drivers/STM32F4xx_HAL_Driver/Inc",
+        "Drivers/STM32F4xx_HAL_Driver/Inc/Legacy",
+        "Drivers/CMSIS/Include",
+        "Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+        "Core/Inc",
+        "Core/Src"
+    ],
+    "libDirs": [],
+    "defines": [
+        "USE_HAL_DRIVER",
+        "STM32F407xx"
+    ],
+    "sourceList": [
+        "Core/Src/can.c",
+        "Core/Src/can_motor.c",
+        "Core/Src/debug_monitor.c",
+        "Core/Src/dma.c",
+        "Core/Src/gpio.c",
+        "Core/Src/main.c",
+        "Core/Src/motor_control.c",
+        "Core/Src/stm32f4xx_hal_msp.c",
+        "Core/Src/stm32f4xx_it.c",
+        "Core/Src/syscalls.c",
+        "Core/Src/sysmem.c",
+        "Core/Src/system_stm32f4xx.c",
+        "Core/Src/usart.c",
+        "Core/Src/vofa.c",
+        "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c",
+        "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c",
+        "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c",
+        "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c",
+        "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c",
+        "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c",
+        "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c",
+        "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c",
+        "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c",
+        "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c",
+        "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c",
+        "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c",
+        "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c",
+        "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c",
+        "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c",
+        "startup_stm32f407xx.s"
+    ],
+    "alwaysInBuildSources": [],
+    "sourceParams": {},
+    "options": {
+        "version": 5,
+        "afterBuildTasks": [],
+        "asm-compiler": {
+            "ASM_FLAGS": ""
+        },
+        "beforeBuildTasks": [],
+        "c/cpp-compiler": {
+            "CXX_FLAGS": "",
+            "C_FLAGS": "",
+            "language-c": "c11",
+            "language-cpp": "c++11",
+            "one-elf-section-per-data": true,
+            "one-elf-section-per-function": true,
+            "optimization": "level-debug",
+            "warnings": "all-warnings"
+        },
+        "global": {
+            "$float-abi-type": "hard",
+            "misc-control": "",
+            "not-use-syscalls": true,
+            "output-debug-info": "enable",
+            "use-newlib-nano": true,
+            "toolPrefix": "arm-none-eabi-",
+            "arm-thumb-mode": "thumb",
+            "microcontroller-cpu": "cortex-m3",
+            "microcontroller-fpu": "cortex-m3",
+            "microcontroller-float": "cortex-m3",
+            "$arch-extensions": "",
+            "$clang-arch-extensions": "",
+            "$armlink-arch-extensions": ""
+        },
+        "linker": {
+            "$outputTaskExcludes": [
+                ".bin"
+            ],
+            "LD_FLAGS": "",
+            "LIB_FLAGS": "-lm",
+            "output-format": "elf",
+            "remove-unused-input-sections": true,
+            "$toolName": "gcc",
+            "link-scatter": [
+                "f:/STM32CubeMX/project/dji-F407VET6/STM32F407XX_FLASH.ld"
+            ]
+        }
+    },
+    "env": {
+        "workspaceFolder": "f:\\STM32CubeMX\\project\\dji-F407VET6",
+        "workspaceFolderBasename": "dji-F407VET6",
+        "OutDir": "f:\\STM32CubeMX\\project\\dji-F407VET6\\build\\Debug",
+        "OutDirRoot": "build",
+        "OutDirBase": "build\\Debug",
+        "ProjectName": "dji-F407VET6",
+        "ConfigName": "Debug",
+        "ProjectRoot": "f:\\STM32CubeMX\\project\\dji-F407VET6",
+        "ExecutableName": "f:\\STM32CubeMX\\project\\dji-F407VET6\\build\\Debug\\dji-F407VET6",
+        "ChipPackDir": "",
+        "ChipName": "",
+        "SYS_Platform": "win32",
+        "SYS_DirSep": "\\",
+        "SYS_DirSeparator": "\\",
+        "SYS_PathSep": ";",
+        "SYS_PathSeparator": ";",
+        "SYS_EOL": "\r\n",
+        "EIDE_BUILDER_DIR": "c:\\Users\\wang\\.vscode\\extensions\\cl.eide-3.26.5\\res\\tools\\win32\\unify_builder",
+        "EIDE_BINARIES_VER": "12.1.1",
+        "EIDE_MSYS": "C:\\Users\\wang\\.eide\\bin\\builder\\msys\\bin",
+        "EIDE_PY3_CMD": "C:\\Users\\wang\\.eide\\bin\\python36\\python3.exe",
+        "ToolchainRoot": "F:\\arm\\14.3 rel1"
+    },
+    "sysPaths": []
+}

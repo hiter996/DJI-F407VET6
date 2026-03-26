@@ -1,0 +1,6 @@
+tool: GCC
+fileName: 'dji-F407VET6.map'
+elfName: 'dji-F407VET6.elf'
+compilerName: 'Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)'
+compilerFullName: 'arm-none-eabi-gcc.exe (Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)) 14.3.1 20250623'
+compilerPath: 'F:\arm\14.3 rel1\bin\arm-none-eabi-gcc.exe'
